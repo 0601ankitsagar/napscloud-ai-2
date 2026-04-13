@@ -204,9 +204,6 @@ export default function App() {
             </div>
             <span className="font-bold text-zinc-900">Naps Cloud</span>
           </div>
-          <p className="text-sm text-zinc-400 font-medium">
-            © 2024 Naps Cloud. Ensuring transparency in the age of AI.
-          </p>
           <div className="flex gap-6 text-sm font-bold text-zinc-400">
             <a href="#" className="hover:text-zinc-900 transition-colors">Terms</a>
             <a href="#" className="hover:text-zinc-900 transition-colors">Privacy</a>

@@ -1,4 +1,4 @@
-import { Cloud, ShieldCheck } from "lucide-react";
+import { Cloud } from "lucide-react";
 import { motion } from "motion/react";
 
 export function Header() {
@@ -28,10 +28,6 @@ export function Header() {
           <a href="#" className="hover:text-blue-600 transition-colors">Privacy</a>
           <a href="#" className="hover:text-blue-600 transition-colors">API</a>
         </nav>
-        <div className="flex items-center gap-2 px-3 py-1.5 bg-zinc-100 rounded-full border border-zinc-200">
-          <ShieldCheck className="w-4 h-4 text-green-600" />
-          <span className="text-xs font-semibold text-zinc-700">Secured by Gemini</span>
-        </div>
       </motion.div>
     </header>
   );
